@@ -1,0 +1,194 @@
+	* {
+			margin: 0;
+			border: 0;
+			padding:0;
+		}
+		html{
+			font-size: 62.5%;
+		}
+
+		header{
+			color: #FFF;
+			font-family: candara, arial;
+			text-align: center;
+			background-color:rgba(255,69,0, 1.0);
+			width: 100%;
+			position: fixed;
+			text-shadow: 2px 2px 3px #000;
+			
+		}
+		h3{
+			color: #FFF;
+			text-align: center;
+			font-family: candara, arial;
+			font-size: 2.0rem;
+			margin: 0;
+		}
+		h4{
+			font-family:candara, arial;
+			padding-bottom: 10px;
+			margin: 0;
+			font-size: 1.8rem;
+		}
+		body{
+			background-color: #F0E68C;
+		}
+		.container{
+			font-family: candara, arial;
+			display: block;
+			background-color: #fff;
+			width: 95%;
+			box-shadow:2px 2px #FFA500 ;
+			margin: 0 auto;
+			max-width: 90%;
+			max-height: 90%;
+			min-width: 0;
+			min-height: 0;
+			margin-top: 230px;
+		}
+
+		.container2{
+			font-family: candara, arial;
+			display: block;
+			background-color: #fff;
+			width: 95%;
+			box-shadow:2px 2px #FFA500 ;
+			margin: 0 auto;
+			max-width: 90%;
+			max-height: 90%;
+			min-width: 0;
+			min-height: 0;
+			margin-top: 15px;
+               }
+		footer{
+			color: #fff;
+			font-family:candara, arial;
+			background-color:rgba(255,69,0, 1.0) ;
+			text-align: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin: 0 auto;
+			text-shadow: 2px 2px 3px #000
+		}
+		p{
+			font-family: candara, arial;
+			text-align: justify;
+			padding: 5px;
+			font-size: 1.6rem;
+		}
+		h1{
+			font-family: candara, arial;
+			text-align: center;
+			padding-top: 5px;
+			font-size: 5rem;
+			color: rgba(184,134,11);
+			text-shadow: 1px 1px 2px #000;
+
+		}
+		h2{
+			color:#FF4500;
+			font-family: candara, arial;
+			text-align: center;
+			padding-top: 5px;
+			font-size: 2.3rem;
+			text-shadow: 1px 1px #000;
+		}
+
+		.texto-footer{
+			text-align: center;
+			font-family:candara, arial;
+			padding-top: 10px;
+			font-size: 1.6rem;
+			padding-bottom: 10px;
+		}
+		.curriculo{
+			background-color: rgba(255,215,0);
+			width: 100px;
+			height: 70px;
+			position: fixed;
+			right: 0;
+			text-align: center;
+			margin-top: 14%;
+			z-index: 1;
+			border-radius: 25% ;
+			border: solid #fff;
+		}
+		h5{ 
+			text-align: center;
+			font-family: candara, arial;
+			padding: 1px;
+			font-size: 1.6rem;
+		}
+		button{
+			color: #fff;
+			text-align: center;
+			font-family: candara, arial;
+			padding: 1px;
+			font-size: 1.2rem;
+			background-color: #FF0000;
+			color: #fff;
+			border: solid #FF0000;
+			border-radius: 20%;
+			}
+		#grid-container2{
+			margin-top: 5px;
+			background-color:rgba(255,140,0);	
+			padding: 5px;	
+			}
+		.grid{
+			display: grid;
+			grid-template-columns:repeat(auto-fill,minmax(300px, 1fr));
+			grid-gap: 1px;
+			max-width: 1200px;
+			margin: 0 auto;
+			}
+		.grid div{
+			background-color: #FFF;
+			font-family: candara, arial;
+			text-align: center;
+			font-size: 1.6rem;
+			padding: 2px;
+		}
+		#formulario{
+			background-color: rgba(173, 216, 230, 1.0);
+		}
+		.formulario-contato{
+			font-family: candara, arial;
+			font-size: 1.6rem;
+			padding: 10px;
+			text-align: left;
+			margin-left:5% ;
+			font-weight:bolder ;
+		}
+		input{
+			font-family: sans-serif;
+			font-size: 1.7rem;
+			padding: 5px;
+
+		}
+		.dados-formulario{
+			width: 60%;
+		}
+		nav{
+			text-align: right;
+			margin: 10px;
+			font-weight: bold;
+			font-family: candara, arial;
+			font-size: 1.4rem;
+			margin-right: 10%;
+			word-spacing: 10px;
+		}	
+		a{
+			text-decoration: none;
+			color: rgba(165, 42, 42, 1.0);
+			transition: all 300ms ease-in-out;
+		}
+		a:hover{
+		color: rgba(255, 0, 0, 1.0);
+		}
+		.imagem{
+			width: 27rem;
+			height: 17rem;
+			border-radius: 20px;
+			
+		}
